@@ -43,6 +43,7 @@ rust_shared_library(
     srcs = [
         "tests/greeting.rs",
     ],
+    edition = "2018",
     deps = [":hello_lib"],
 )
 

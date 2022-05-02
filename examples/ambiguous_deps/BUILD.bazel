@@ -7,8 +7,8 @@ rust_binary(
     name = "bin_with_same_name_deps",
     srcs = ["bin.rs"],
     deps = [
-        "//ambiguous_deps/x:exc",
-        "//ambiguous_deps/y:exc",
+        "//examples/ambiguous_deps/x:exc",
+        "//examples/ambiguous_deps/y:exc",
     ],
 )
 

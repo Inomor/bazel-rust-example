@@ -10,6 +10,7 @@ cargo_build_script(
     build_script_env = {"SOME_ENV": "42"},
     crate_features = ["bleh"],
     data = ["test.txt"],
+    edition = "2018",
 )
 
 rust_library(
