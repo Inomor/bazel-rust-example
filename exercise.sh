@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+echo Rust example is not yet ready...
+
+exit
+
 # The easiest command: build everything. Bazel uses ... for the
 # "everything" wildcard.
 
